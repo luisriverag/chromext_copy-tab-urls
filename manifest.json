@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Tab URL Collector",
+    "version": "1.0",
+    "description": "Captures URLs from all open tabs and displays them in a popup.",
+    "permissions": [
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
