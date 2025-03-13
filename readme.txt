@@ -1,7 +1,7 @@
-Tab URL Collector
-=================
+CopyTabURLS - A Chrome Extension (V3) Tab URL Collector
+=========================================================
 
-Tab URL Collector is a simple Chrome extension that captures the URLs (and titles) of all open tabs and displays them in a popup.
+Tab URL Collector is a simple Chrome extension that captures the URLs of all open tabs and displays them in a popup.
 This tool is useful for quickly accessing, sharing, or saving your current session's URLs.
 
 Features
@@ -16,8 +16,8 @@ Installation
 
    If you haven't already, clone the repository:
 
-       git clone https://github.com/<USERNAME>/<REPO_NAME>.git
-       cd <REPO_NAME>
+       git clone https://github.com/luisriverag/chromext_copy-tab-urls.git
+       cd chromext_copy-tab-urls
 
 2. Load the Extension in Chrome
 
@@ -50,28 +50,6 @@ Debugging:
 
 Reloading the Extension:
 - After making any changes, go to chrome://extensions/ and click "Reload" on your extension.
-
-Creating a GitHub Repository and Pushing Files
------------------------------------------------
-Using Standard Git Commands:
-
-       cd ~/Documents/source_code/chromext_copy-tab-urls
-       git init
-       git add .
-       git commit -m "Initial commit"
-       git remote add origin https://github.com/<USERNAME>/<REPO_NAME>.git
-       git branch -M main
-       git push -u origin main
-
-Using GitHub CLI:
-
-       cd ~/Documents/source_code/chromext_copy-tab-urls
-       git init
-       git add .
-       git commit -m "Initial commit"
-       gh repo create <REPO_NAME> --public --source=. --remote=origin --push
-
-Replace <USERNAME> and <REPO_NAME> with your GitHub username and desired repository name.
 
 License
 -------
